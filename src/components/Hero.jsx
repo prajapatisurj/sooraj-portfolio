@@ -1,4 +1,3 @@
-import React from 'react'
 import { Download } from 'lucide-react';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -28,12 +27,12 @@ const Hero = () => {
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1, delay:0.2}}
-            className='md:text-6xl text-4xl font-bold mb-4'>Hi👋, I'm <p className='text-blue-400'>Rohit Singh</p></motion.h1>
+            className='md:text-6xl text-4xl font-bold mb-4'>Hi👋, I&apos;m <p className='text-blue-400'>Sooraj Prajapati</p></motion.h1>
             <motion.p 
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}
             transition={{duration:1.2, delay:0.4}}
-            className='md:text-2xl text-lg mb-3'>Full-Stack Developer | MERN Stack Enthusiast</motion.p>
+            className='md:text-2xl text-lg mb-3'> Frontend Developer</motion.p>
             <motion.p 
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}

@@ -1,4 +1,3 @@
-import React from 'react'
 import Digital from '../assets/Digital.png'
 import Nike from '../assets/Nike.png'
 import Clothify from '../assets/Clothify.png'
@@ -12,7 +11,7 @@ const Project = () => {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
           techStack: ["Next.js", "MongoDB", "Stripe", "Tailwind CSS"],
           link: "https://business420.netlify.app/",
-          github: 'https://github.com/rohitsingh93300/YTBusiness',
+          github: '',
           image: Digital, // Replace with your project screenshot
         },
         {
@@ -21,7 +20,7 @@ const Project = () => {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
           techStack: ["React", "Node.js", "MongoDB", "shadcn UI"],
           link: "https://nike-topaz-delta.vercel.app/",
-          github: 'https://github.com/rohitsingh93300/YT-Nike',
+          github: '',
           image: Nike, // Replace with your project screenshot
         },
         {
@@ -30,7 +29,7 @@ const Project = () => {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea accusantium impedit facere. Sequi, deserunt recusandae.",
           techStack: ["Next.js", "MongoDB", "Clerk Authentication"],
           link: "https://clothify-two.vercel.app/",
-          github: 'https://github.com/rohitsingh93300/YT-Clothify',
+          github: '',
           image: Clothify, // Replace with your project screenshot
         },
       ];
